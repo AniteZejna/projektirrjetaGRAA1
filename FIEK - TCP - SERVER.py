@@ -61,13 +61,6 @@ def zanore(string):
             zanoret = zanoret + 1
     return int(zanoret)
 
-#faktoriel
-
-
-
-
-
-
 
 
 while 1:
@@ -159,6 +152,7 @@ while 1:
         nrZan = int(nrZan) - 3
         nrZan = str(nrZan)
         connectionSocket.send(nrZan.encode('ASCII'))
+ #developed by jasmin
     elif condition1 == "JASMIN1":
         pi = 22 / 7
         radian = float(condition2)
@@ -187,7 +181,7 @@ while 1:
         siperfaqe = baza * lartesia
         siperfaqe = str(siperfaqe)
         connectionSocket.send(siperfaqe.encode('ASCII'))
-
+#developed by jasmin
     elif condition1 == "JASMIN2":
         num1 = int(condition1)
         num2 = int(condition2)
