@@ -208,12 +208,13 @@ while True:
         mb = gb / 1024
         gb = str(gb)
         serverSocket.sendto(gb.encode("utf-8"), clientAddress)
-
+#developed by anita
     elif condition1 == "ANITA1":
         numpertvsh = int(condition2)
         numrez = numpertvsh / 0.18
         numrez = str(numrez)
         serverSocket.sendto(numrez.encode("utf-8"), clientAddress)
+ #developed by anita
     elif condition1 == "ANITA2":
         age = int(condition2)
         if age < 18 :
