@@ -171,7 +171,7 @@ while True:
         grad = radian * (180 / pi)
         grad = str(grad)
         serverSocket.sendto(grad.encode("utf-8"),clientAddress)
-
+#eveloped by ardita
     elif condition1 == "ARDITA1":
         s = textRecieved
         d = l = 0
@@ -221,6 +221,7 @@ while True:
         else:
             rezanita = "You are allowed to drive"
         serverSocket.sendto(rezanita.encode("utf-8"), clientAddress)
+#developed by ardita
     elif condition1 == "ARDITA2":
         numripeq = int(condition2)
         numridy = int(condition3)
