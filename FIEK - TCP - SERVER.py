@@ -201,13 +201,13 @@ while 1:
 
     elif condition1 == "PRINT":
         connectionSocket.send(condition2.encode('ASCII'))
-
+#developed by anita
     elif condition1 == "ANITA1":
         numpertvsh = int(condition2)
         numrez = numpertvsh / 0.18
         numrez = str(numrez)
         connectionSocket.send(numrez.encode('ASCII'))
-
+#developed by anita
     elif condition1 == "ANITA2":
         age = int(condition2)
         if age < 18 :
