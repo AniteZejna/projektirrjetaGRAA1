@@ -164,7 +164,8 @@ while True:
             rezfakt = ("The factorial of", num, "is", factorial)
         rezfakt = str(rezfakt)
         serverSocket.sendto(rezfakt.encode("utf-8"),clientAddress)
-    elif condition1 == "JASMIN1":
+#Developed by Jasmin
+    elif condition1 == "JASMIN1": 
         pi = 22 / 7
         radian = float(condition2)
         grad = radian * (180 / pi)
@@ -191,6 +192,7 @@ while True:
         siperfaqe = baza * lartesia
         siperfaqe = str(siperfaqe)
         serverSocket.sendto(siperfaqe.encode("utf-8") , clientAddress)
+  #Developed by Jasmin
     elif condition1 == "JASMIN2":
         num1 = int(condition1)
         num2 = int(condition2)
